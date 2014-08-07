@@ -1,0 +1,14 @@
+name: eve_mission_control
+version: 0.0.1
+dependencies:
+  browser:  any
+  angular:  any
+  intl:     any
+dev_dependencies:
+  unittest: any
+  mock:     any
+  guinness: any
+transformers:
+- angular:
+    html_files:
+      - web/index.html
